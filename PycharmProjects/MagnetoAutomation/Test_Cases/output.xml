@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.7 on win32)" generated="20230825 01:09:07.417" rpa="false" schemaversion="4">
+<suite id="s1" name="Test Cases" source="C:\Users\ankit\PycharmProjects\MagnetoAutomation\Test_Cases\Test_Cases.robot">
+<test id="s1-t1" name="Login Test(Valid)" line="16">
+<kw name="Download Webdriver">
+<arg>chrome</arg>
+<msg timestamp="20230825 01:09:07.813" level="FAIL">No keyword with name 'Download Webdriver' found.</msg>
+<status status="FAIL" starttime="20230825 01:09:07.813" endtime="20230825 01:09:07.813"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="NOT RUN" starttime="20230825 01:09:07.813" endtime="20230825 01:09:07.813"/>
+</kw>
+<kw name="Login To Application(Valid)" library="Keywords">
+<status status="NOT RUN" starttime="20230825 01:09:07.813" endtime="20230825 01:09:07.813"/>
+</kw>
+<kw name="Verify Texts(Valid Scenario)" library="Keywords">
+<status status="NOT RUN" starttime="20230825 01:09:07.819" endtime="20230825 01:09:07.819"/>
+</kw>
+<kw name="Search For Items" library="Keywords">
+<status status="NOT RUN" starttime="20230825 01:09:07.819" endtime="20230825 01:09:07.819"/>
+</kw>
+<kw name="Logout From Application" library="Keywords">
+<status status="NOT RUN" starttime="20230825 01:09:07.819" endtime="20230825 01:09:07.819"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20230825 01:09:07.820" endtime="20230825 01:09:07.820"/>
+</kw>
+<tag>valid</tag>
+<status status="FAIL" starttime="20230825 01:09:07.799" endtime="20230825 01:09:07.820">No keyword with name 'Download Webdriver' found.</status>
+</test>
+<status status="FAIL" starttime="20230825 01:09:07.428" endtime="20230825 01:09:07.822"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">valid</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test Cases">Test Cases</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230825 01:09:07.797" level="ERROR">Error in file 'C:\Users\ankit\PycharmProjects\MagnetoAutomation\Test_Cases\Test_Cases.robot' on line 4: Importing library 'WebdriverManager' failed: ModuleNotFoundError: No module named 'WebdriverManager'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Program Files\Python310\Scripts\robot.exe
+  C:\Program Files\Python310\python310.zip
+  C:\Program Files\Python310\DLLs
+  C:\Program Files\Python310\lib
+  C:\Program Files\Python310
+  C:\Users\ankit\AppData\Roaming\Python\Python310\site-packages
+  C:\Program Files\Python310\lib\site-packages</msg>
+</errors>
+</robot>
